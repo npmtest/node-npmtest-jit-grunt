@@ -1,6 +1,6 @@
 # npmtest-jit-grunt
 
-#### test coverage for  [jit-grunt (v0.10.0)](https://github.com/shootaroo/jit-grunt)  [![npm package](https://img.shields.io/npm/v/npmtest-jit-grunt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jit-grunt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jit-grunt.svg)](https://travis-ci.org/npmtest/node-npmtest-jit-grunt)
+#### basic test coverage for  [jit-grunt (v0.10.0)](https://github.com/shootaroo/jit-grunt)  [![npm package](https://img.shields.io/npm/v/npmtest-jit-grunt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jit-grunt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jit-grunt.svg)](https://travis-ci.org/npmtest/node-npmtest-jit-grunt)
 
 #### JIT plugin loader for Grunt.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-jit-grunt/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-jit-grunt/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-jit-grunt/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-jit-grunt/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jit-grunt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jit-grunt/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-jit-grunt/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-jit-grunt/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jit-grunt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jit-grunt/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-jit-grunt/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-jit-grunt/build/coverage.html/index.html)
 
@@ -105,7 +105,8 @@
         "test": "npm-run-all build -p lint mocha",
         "watch": "babel src -d lib --watch"
     },
-    "version": "0.10.0"
+    "version": "0.10.0",
+    "bin": {}
 }
 ```
 
